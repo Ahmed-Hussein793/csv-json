@@ -46,12 +46,13 @@ firstly move the csv-json.js to your project file then you can use it like:
 ```js
 const { convertToCsv, convertToJson } = require("./csv-json.js")
 ```
-then just call the function and give it the path to your file like
+then just call the function and give it the path to your file like:
 
 ```js
 convertToCsv("path_to_file.json")
 convertToJson("path_to_file.csv")
 ```
+## Note: JSON Files most be an array of JSON objects.
 
 ## 💻 Download Binaries (for normal users)
 
