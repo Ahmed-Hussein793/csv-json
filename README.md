@@ -23,6 +23,7 @@ npm install
 ## 🔧 Usage
 
 Convert JSON to CSV:
+### Cli
 ```
 csv-json -f path/to/file.json --csv
 ```
@@ -31,7 +32,17 @@ Convert CSV to JSON:
 ```
 csv-json -f path/to/file.csv --json
 ```
+### Libary 
 
+```js
+const { convertToCsv, convertToJson } = require("./csv-json.js")
+```
+then just call the function and giv it the path to your file like
+
+```js
+convertToCsv("path_to_file.json")
+convertToJson("path_to_file.csv")
+```
 
 ## 💻 Download Binaries (for normal users)
 
